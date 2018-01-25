@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A42B8C432019C59600072548 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A42B8C422019C59600072548 /* AppDelegate.m */; };
+		A42B8C462019C59600072548 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42B8C452019C59600072548 /* ViewController.m */; };
+		A42B8C492019C59600072548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42B8C472019C59600072548 /* Main.storyboard */; };
+		A42B8C4B2019C59600072548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42B8C4A2019C59600072548 /* Assets.xcassets */; };
+		A42B8C4E2019C59600072548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42B8C4C2019C59600072548 /* LaunchScreen.storyboard */; };
+		A42B8C512019C59600072548 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A42B8C502019C59600072548 /* main.m */; };
+		A46BE1E12019C63D00D9AAC9 /* JPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A46BE1E02019C63D00D9AAC9 /* JPLogger.m */; };
+		A46BE1E52019D17600D9AAC9 /* JPLoggerFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A46BE1E42019D17600D9AAC9 /* JPLoggerFileManager.m */; };
+		A46BE1E82019D28F00D9AAC9 /* JPLoggerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A46BE1E72019D28F00D9AAC9 /* JPLoggerItem.m */; };
+		A46BE1EB2019D30B00D9AAC9 /* JPLoggerStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A46BE1EA2019D30B00D9AAC9 /* JPLoggerStream.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A42B8C3E2019C59600072548 /* JPLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42B8C412019C59600072548 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A42B8C422019C59600072548 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A42B8C442019C59600072548 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A42B8C452019C59600072548 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A42B8C482019C59600072548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A42B8C4A2019C59600072548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A42B8C4D2019C59600072548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A42B8C4F2019C59600072548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42B8C502019C59600072548 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A46BE1DF2019C63D00D9AAC9 /* JPLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPLogger.h; sourceTree = "<group>"; };
+		A46BE1E02019C63D00D9AAC9 /* JPLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPLogger.m; sourceTree = "<group>"; };
+		A46BE1E32019D17600D9AAC9 /* JPLoggerFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPLoggerFileManager.h; sourceTree = "<group>"; };
+		A46BE1E42019D17600D9AAC9 /* JPLoggerFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPLoggerFileManager.m; sourceTree = "<group>"; };
+		A46BE1E62019D28F00D9AAC9 /* JPLoggerItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPLoggerItem.h; sourceTree = "<group>"; };
+		A46BE1E72019D28F00D9AAC9 /* JPLoggerItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPLoggerItem.m; sourceTree = "<group>"; };
+		A46BE1E92019D30B00D9AAC9 /* JPLoggerStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPLoggerStream.h; sourceTree = "<group>"; };
+		A46BE1EA2019D30B00D9AAC9 /* JPLoggerStream.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPLoggerStream.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A42B8C3B2019C59600072548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A42B8C352019C59600072548 = {
+			isa = PBXGroup;
+			children = (
+				A42B8C402019C59600072548 /* JPLogger */,
+				A42B8C3F2019C59600072548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A42B8C3F2019C59600072548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A42B8C3E2019C59600072548 /* JPLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A42B8C402019C59600072548 /* JPLogger */ = {
+			isa = PBXGroup;
+			children = (
+				A46BE1DE2019C62C00D9AAC9 /* lib */,
+				A42B8C412019C59600072548 /* AppDelegate.h */,
+				A42B8C422019C59600072548 /* AppDelegate.m */,
+				A42B8C442019C59600072548 /* ViewController.h */,
+				A42B8C452019C59600072548 /* ViewController.m */,
+				A42B8C472019C59600072548 /* Main.storyboard */,
+				A42B8C4A2019C59600072548 /* Assets.xcassets */,
+				A42B8C4C2019C59600072548 /* LaunchScreen.storyboard */,
+				A42B8C4F2019C59600072548 /* Info.plist */,
+				A42B8C502019C59600072548 /* main.m */,
+			);
+			path = JPLogger;
+			sourceTree = "<group>";
+		};
+		A46BE1DE2019C62C00D9AAC9 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A46BE1DF2019C63D00D9AAC9 /* JPLogger.h */,
+				A46BE1E02019C63D00D9AAC9 /* JPLogger.m */,
+				A46BE1E32019D17600D9AAC9 /* JPLoggerFileManager.h */,
+				A46BE1E42019D17600D9AAC9 /* JPLoggerFileManager.m */,
+				A46BE1E62019D28F00D9AAC9 /* JPLoggerItem.h */,
+				A46BE1E72019D28F00D9AAC9 /* JPLoggerItem.m */,
+				A46BE1E92019D30B00D9AAC9 /* JPLoggerStream.h */,
+				A46BE1EA2019D30B00D9AAC9 /* JPLoggerStream.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A42B8C3D2019C59600072548 /* JPLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42B8C542019C59600072548 /* Build configuration list for PBXNativeTarget "JPLogger" */;
+			buildPhases = (
+				A42B8C3A2019C59600072548 /* Sources */,
+				A42B8C3B2019C59600072548 /* Frameworks */,
+				A42B8C3C2019C59600072548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPLogger;
+			productName = JPLogger;
+			productReference = A42B8C3E2019C59600072548 /* JPLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A42B8C362019C59600072548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Jasper;
+				TargetAttributes = {
+					A42B8C3D2019C59600072548 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A42B8C392019C59600072548 /* Build configuration list for PBXProject "JPLogger" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A42B8C352019C59600072548;
+			productRefGroup = A42B8C3F2019C59600072548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A42B8C3D2019C59600072548 /* JPLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A42B8C3C2019C59600072548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42B8C4E2019C59600072548 /* LaunchScreen.storyboard in Resources */,
+				A42B8C4B2019C59600072548 /* Assets.xcassets in Resources */,
+				A42B8C492019C59600072548 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A42B8C3A2019C59600072548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42B8C462019C59600072548 /* ViewController.m in Sources */,
+				A46BE1EB2019D30B00D9AAC9 /* JPLoggerStream.m in Sources */,
+				A46BE1E52019D17600D9AAC9 /* JPLoggerFileManager.m in Sources */,
+				A46BE1E12019C63D00D9AAC9 /* JPLogger.m in Sources */,
+				A42B8C512019C59600072548 /* main.m in Sources */,
+				A46BE1E82019D28F00D9AAC9 /* JPLoggerItem.m in Sources */,
+				A42B8C432019C59600072548 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A42B8C472019C59600072548 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42B8C482019C59600072548 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A42B8C4C2019C59600072548 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42B8C4D2019C59600072548 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A42B8C522019C59600072548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A42B8C532019C59600072548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A42B8C552019C59600072548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JPLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zasper.JPLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A42B8C562019C59600072548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JPLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zasper.JPLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A42B8C392019C59600072548 /* Build configuration list for PBXProject "JPLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42B8C522019C59600072548 /* Debug */,
+				A42B8C532019C59600072548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42B8C542019C59600072548 /* Build configuration list for PBXNativeTarget "JPLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42B8C552019C59600072548 /* Debug */,
+				A42B8C562019C59600072548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A42B8C362019C59600072548 /* Project object */;
+}
